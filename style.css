@@ -1,0 +1,200 @@
+/*Nav Bar*/
+#Nav-Title {
+    font-family: 'Alegreya', serif;
+    background-color: #ffd633;
+}
+
+.title {
+    margin: 2% 5% 2% 1%;
+}
+
+.nav-item {
+    padding-right: 7px;
+}
+
+.logo {
+    width: 8%;
+    padding-left: 1%;
+}
+
+/*Paragraph*/
+h1 {
+    font-family: 'Dancing Script', cursive;
+    color: black;
+}
+
+h2 {
+    font-family: 'Alegreya', serif;
+    color: #ff9900;
+}
+
+h3 {
+    font-family: 'Alegreya', serif;
+    color: #ff9900;
+    display: inline-block;
+}
+
+h4,
+h5,
+P {
+    font-family: 'Merienda', cursive;
+    color: black;
+    font-size: 1.3em
+}
+
+.button-edit {
+    font-family: 'Merienda', cursive;
+    font-size: 1em;
+}
+
+.headings {
+    font-weight: bold;
+}
+
+/**Home**/
+#home {
+
+    text-align: center;
+    background-color: #ffe066;
+}
+
+.title-img {
+    padding: 3%;
+    width: 60%;
+}
+
+/**Academics**/
+#academics{
+    text-align: center;
+    background-color: #ff9900;
+    padding: 5%;
+}
+
+
+
+/**Skill**/
+#skill {
+    text-align: center;
+    padding: 5%;
+}
+
+.favicon {
+    color: #ff9900;
+    padding-right: 2%;
+}
+
+.skill-name {
+    text-align: left;
+}
+
+.timeline__item {
+    position: relative;
+    width: 100%;
+}
+
+
+/**Academic Skill**/
+#Academics {
+    text-align: center;
+    padding: 5%;
+
+}
+
+/**Collaborate Section**/
+#collaborate {
+    text-align: center;
+    background-color: #ff9900;
+    padding: 5%;
+}
+
+.img-collaborate {
+    padding: 2% 1% 2% 0%;
+    width: 20%;
+    flex-basis: 40%;
+}
+
+/**Achievements**/
+#achievements {
+    text-align: center;
+    padding: 5%;
+}
+
+.instaimg {
+    width: 50%;
+}
+
+/***Contact Me****/
+#contactme {
+    text-align: center;
+    background-color: #ff9900;
+    padding: 5%;
+}
+.social-media-logo{
+    color: #fff;
+    padding-bottom: 2%;
+}
+
+/***Form***/
+#FormSubmit {
+    text-align: center;
+    padding: 5%;
+    background-color: #fff;
+}
+.formsubmission{
+    padding: 0% 15% 0% 15%;
+    font-family: 'Merienda', cursive;
+}
+.input-name{
+    padding-bottom: 3%;
+}
+
+/***Footer***/
+.Footer{
+    background-color: #ff9900;
+    text-align: center;
+}
+
+/**Responsive**/
+@media(max-width: 980px) {
+    .title-img {
+        width: 100%;
+    }
+
+    .logo {
+        width: 10%;
+    }
+
+    #Nav-Title {
+        text-align: center;
+    }
+
+    .dropdownskill {
+        padding-bottom: 5%;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1.5em
+    }
+
+    h5{
+        font-size: 1em;
+    }
+
+    .achievements-certificate {
+        font-size: 1.2em;
+        padding-top: 2%;
+
+    }
+
+    .headings{
+        font-size: 1.7em;
+    }
+
+    .img-collaborate {
+        width: 30%;
+    }
+}
